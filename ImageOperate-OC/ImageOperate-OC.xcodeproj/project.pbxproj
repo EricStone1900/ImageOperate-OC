@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5402B43324AC2F5B00C891A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402B43224AC2F5B00C891A5 /* AppDelegate.m */; };
+		5402B43624AC2F5B00C891A5 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402B43524AC2F5B00C891A5 /* SceneDelegate.m */; };
+		5402B43924AC2F5B00C891A5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402B43824AC2F5B00C891A5 /* ViewController.m */; };
+		5402B43C24AC2F5B00C891A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5402B43A24AC2F5B00C891A5 /* Main.storyboard */; };
+		5402B43E24AC2F5C00C891A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5402B43D24AC2F5C00C891A5 /* Assets.xcassets */; };
+		5402B44124AC2F5C00C891A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5402B43F24AC2F5C00C891A5 /* LaunchScreen.storyboard */; };
+		5402B44424AC2F5C00C891A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402B44324AC2F5C00C891A5 /* main.m */; };
+		5402B46224AC5FE300C891A5 /* dog.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5402B45924AC5FE300C891A5 /* dog.jpg */; };
+		5402B46324AC5FE300C891A5 /* honeybee.png in Resources */ = {isa = PBXBuildFile; fileRef = 5402B45A24AC5FE300C891A5 /* honeybee.png */; };
+		5402B46424AC5FE300C891A5 /* scream.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5402B45B24AC5FE300C891A5 /* scream.jpg */; };
+		5402B46524AC5FE300C891A5 /* eagle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5402B45C24AC5FE300C891A5 /* eagle.jpg */; };
+		5402B46624AC5FE300C891A5 /* person.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5402B45D24AC5FE300C891A5 /* person.jpg */; };
+		5402B46724AC5FE300C891A5 /* flower.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5402B45E24AC5FE300C891A5 /* flower.jpg */; };
+		5402B46824AC5FE300C891A5 /* giraffe.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5402B45F24AC5FE300C891A5 /* giraffe.jpg */; };
+		5402B46924AC5FE300C891A5 /* horses.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5402B46024AC5FE300C891A5 /* horses.jpg */; };
+		5402B46F24AC614000C891A5 /* Icon-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 5402B46B24AC614000C891A5 /* Icon-2.png */; };
+		5402B47024AC614000C891A5 /* Icon-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 5402B46C24AC614000C891A5 /* Icon-3.png */; };
+		5402B47124AC614000C891A5 /* Icon-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 5402B46D24AC614000C891A5 /* Icon-1.png */; };
+		5402B47224AC614000C891A5 /* Icon-4.png in Resources */ = {isa = PBXBuildFile; fileRef = 5402B46E24AC614000C891A5 /* Icon-4.png */; };
+		5402B47524AC7C1C00C891A5 /* UIImage+Processor.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402B47424AC7C1C00C891A5 /* UIImage+Processor.m */; };
+		5402B47C24AC855500C891A5 /* UIImage+GPUFliter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402B47B24AC855500C891A5 /* UIImage+GPUFliter.m */; };
+		5402B48024AC8D2F00C891A5 /* ImageProcessorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402B47F24AC8D2F00C891A5 /* ImageProcessorViewController.m */; };
+		5402B48324AC8F8600C891A5 /* ImageCompressViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402B48224AC8F8600C891A5 /* ImageCompressViewController.m */; };
+		5402B48624AC94E300C891A5 /* UIImage+Compress.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402B48524AC94E300C891A5 /* UIImage+Compress.m */; };
+		5402B48824ACA01800C891A5 /* panda.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5402B48724ACA01800C891A5 /* panda.jpg */; };
+		5402B48C24ACA17000C891A5 /* ImagePixelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402B48B24ACA17000C891A5 /* ImagePixelViewController.m */; };
+		5402B48F24ACA2D100C891A5 /* ImageGrayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402B48E24ACA2D100C891A5 /* ImageGrayViewController.m */; };
+		5402B49224ACA2F400C891A5 /* ImagePixelCustomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402B49124ACA2F400C891A5 /* ImagePixelCustomViewController.m */; };
+		5402B49524ACA30600C891A5 /* ImageMosaicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402B49424ACA30600C891A5 /* ImageMosaicViewController.m */; };
+		5402B49824ACA70300C891A5 /* UIImage+PixelMix.m in Sources */ = {isa = PBXBuildFile; fileRef = 5402B49724ACA70300C891A5 /* UIImage+PixelMix.m */; };
+		54C5FD7E24AED6C700D02616 /* UIImage+OrientationFix.m in Sources */ = {isa = PBXBuildFile; fileRef = 54C5FD7C24AED6C700D02616 /* UIImage+OrientationFix.m */; };
+		5824BC881295A2F7D336708B /* Pods_ImageOperate_OC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55A7B7E6A3603E649992DF26 /* Pods_ImageOperate_OC.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		359C00D9283B293B4B754C7D /* Pods-ImageOperate-OC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageOperate-OC.debug.xcconfig"; path = "Target Support Files/Pods-ImageOperate-OC/Pods-ImageOperate-OC.debug.xcconfig"; sourceTree = "<group>"; };
+		5402B42E24AC2F5B00C891A5 /* ImageOperate-OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ImageOperate-OC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5402B43124AC2F5B00C891A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5402B43224AC2F5B00C891A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5402B43424AC2F5B00C891A5 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		5402B43524AC2F5B00C891A5 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		5402B43724AC2F5B00C891A5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5402B43824AC2F5B00C891A5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5402B43B24AC2F5B00C891A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5402B43D24AC2F5C00C891A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5402B44024AC2F5C00C891A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5402B44224AC2F5C00C891A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5402B44324AC2F5C00C891A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5402B45924AC5FE300C891A5 /* dog.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dog.jpg; sourceTree = "<group>"; };
+		5402B45A24AC5FE300C891A5 /* honeybee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = honeybee.png; sourceTree = "<group>"; };
+		5402B45B24AC5FE300C891A5 /* scream.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = scream.jpg; sourceTree = "<group>"; };
+		5402B45C24AC5FE300C891A5 /* eagle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = eagle.jpg; sourceTree = "<group>"; };
+		5402B45D24AC5FE300C891A5 /* person.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = person.jpg; sourceTree = "<group>"; };
+		5402B45E24AC5FE300C891A5 /* flower.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = flower.jpg; sourceTree = "<group>"; };
+		5402B45F24AC5FE300C891A5 /* giraffe.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = giraffe.jpg; sourceTree = "<group>"; };
+		5402B46024AC5FE300C891A5 /* horses.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = horses.jpg; sourceTree = "<group>"; };
+		5402B46B24AC614000C891A5 /* Icon-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-2.png"; sourceTree = "<group>"; };
+		5402B46C24AC614000C891A5 /* Icon-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-3.png"; sourceTree = "<group>"; };
+		5402B46D24AC614000C891A5 /* Icon-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-1.png"; sourceTree = "<group>"; };
+		5402B46E24AC614000C891A5 /* Icon-4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-4.png"; sourceTree = "<group>"; };
+		5402B47324AC7C1C00C891A5 /* UIImage+Processor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Processor.h"; sourceTree = "<group>"; };
+		5402B47424AC7C1C00C891A5 /* UIImage+Processor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Processor.m"; sourceTree = "<group>"; };
+		5402B47A24AC855500C891A5 /* UIImage+GPUFliter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+GPUFliter.h"; sourceTree = "<group>"; };
+		5402B47B24AC855500C891A5 /* UIImage+GPUFliter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+GPUFliter.m"; sourceTree = "<group>"; };
+		5402B47E24AC8D2F00C891A5 /* ImageProcessorViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageProcessorViewController.h; sourceTree = "<group>"; };
+		5402B47F24AC8D2F00C891A5 /* ImageProcessorViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageProcessorViewController.m; sourceTree = "<group>"; };
+		5402B48124AC8F8600C891A5 /* ImageCompressViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageCompressViewController.h; sourceTree = "<group>"; };
+		5402B48224AC8F8600C891A5 /* ImageCompressViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageCompressViewController.m; sourceTree = "<group>"; };
+		5402B48424AC94E300C891A5 /* UIImage+Compress.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+Compress.h"; sourceTree = "<group>"; };
+		5402B48524AC94E300C891A5 /* UIImage+Compress.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Compress.m"; sourceTree = "<group>"; };
+		5402B48724ACA01800C891A5 /* panda.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = panda.jpg; sourceTree = "<group>"; };
+		5402B48A24ACA17000C891A5 /* ImagePixelViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePixelViewController.h; sourceTree = "<group>"; };
+		5402B48B24ACA17000C891A5 /* ImagePixelViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePixelViewController.m; sourceTree = "<group>"; };
+		5402B48D24ACA2D100C891A5 /* ImageGrayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageGrayViewController.h; sourceTree = "<group>"; };
+		5402B48E24ACA2D100C891A5 /* ImageGrayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageGrayViewController.m; sourceTree = "<group>"; };
+		5402B49024ACA2F400C891A5 /* ImagePixelCustomViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImagePixelCustomViewController.h; sourceTree = "<group>"; };
+		5402B49124ACA2F400C891A5 /* ImagePixelCustomViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImagePixelCustomViewController.m; sourceTree = "<group>"; };
+		5402B49324ACA30600C891A5 /* ImageMosaicViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ImageMosaicViewController.h; sourceTree = "<group>"; };
+		5402B49424ACA30600C891A5 /* ImageMosaicViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageMosaicViewController.m; sourceTree = "<group>"; };
+		5402B49624ACA70300C891A5 /* UIImage+PixelMix.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIImage+PixelMix.h"; sourceTree = "<group>"; };
+		5402B49724ACA70300C891A5 /* UIImage+PixelMix.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIImage+PixelMix.m"; sourceTree = "<group>"; };
+		54C5FD7C24AED6C700D02616 /* UIImage+OrientationFix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+OrientationFix.m"; sourceTree = "<group>"; };
+		54C5FD7D24AED6C700D02616 /* UIImage+OrientationFix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+OrientationFix.h"; sourceTree = "<group>"; };
+		55A7B7E6A3603E649992DF26 /* Pods_ImageOperate_OC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ImageOperate_OC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A5E622426A682D9EBC5B17DA /* Pods-ImageOperate-OC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ImageOperate-OC.release.xcconfig"; path = "Target Support Files/Pods-ImageOperate-OC/Pods-ImageOperate-OC.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5402B42B24AC2F5B00C891A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5824BC881295A2F7D336708B /* Pods_ImageOperate_OC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5402B42524AC2F5B00C891A5 = {
+			isa = PBXGroup;
+			children = (
+				5402B43024AC2F5B00C891A5 /* ImageOperate-OC */,
+				5402B42F24AC2F5B00C891A5 /* Products */,
+				7856D5D0E7538823208D9173 /* Pods */,
+				BFE60C98688DEAB4CB438A9A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5402B42F24AC2F5B00C891A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5402B42E24AC2F5B00C891A5 /* ImageOperate-OC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5402B43024AC2F5B00C891A5 /* ImageOperate-OC */ = {
+			isa = PBXGroup;
+			children = (
+				54C5FD7B24AED6A900D02616 /* ImageOrientationFix */,
+				5402B48924ACA10A00C891A5 /* ImagePixelMix */,
+				5402B47D24AC8CAB00C891A5 /* ImageCompress */,
+				5402B47624AC84F900C891A5 /* ImageProcessor */,
+				5402B45724AC5FE300C891A5 /* Images */,
+				5402B43124AC2F5B00C891A5 /* AppDelegate.h */,
+				5402B43224AC2F5B00C891A5 /* AppDelegate.m */,
+				5402B43424AC2F5B00C891A5 /* SceneDelegate.h */,
+				5402B43524AC2F5B00C891A5 /* SceneDelegate.m */,
+				5402B43724AC2F5B00C891A5 /* ViewController.h */,
+				5402B43824AC2F5B00C891A5 /* ViewController.m */,
+				5402B43A24AC2F5B00C891A5 /* Main.storyboard */,
+				5402B43D24AC2F5C00C891A5 /* Assets.xcassets */,
+				5402B43F24AC2F5C00C891A5 /* LaunchScreen.storyboard */,
+				5402B44224AC2F5C00C891A5 /* Info.plist */,
+				5402B44324AC2F5C00C891A5 /* main.m */,
+			);
+			path = "ImageOperate-OC";
+			sourceTree = "<group>";
+		};
+		5402B45724AC5FE300C891A5 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				5402B48724ACA01800C891A5 /* panda.jpg */,
+				5402B46D24AC614000C891A5 /* Icon-1.png */,
+				5402B46B24AC614000C891A5 /* Icon-2.png */,
+				5402B46C24AC614000C891A5 /* Icon-3.png */,
+				5402B46E24AC614000C891A5 /* Icon-4.png */,
+				5402B45924AC5FE300C891A5 /* dog.jpg */,
+				5402B45A24AC5FE300C891A5 /* honeybee.png */,
+				5402B45B24AC5FE300C891A5 /* scream.jpg */,
+				5402B45C24AC5FE300C891A5 /* eagle.jpg */,
+				5402B45D24AC5FE300C891A5 /* person.jpg */,
+				5402B45E24AC5FE300C891A5 /* flower.jpg */,
+				5402B45F24AC5FE300C891A5 /* giraffe.jpg */,
+				5402B46024AC5FE300C891A5 /* horses.jpg */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		5402B47624AC84F900C891A5 /* ImageProcessor */ = {
+			isa = PBXGroup;
+			children = (
+				5402B47724AC851D00C891A5 /* ImageFliter-GPU */,
+				5402B47324AC7C1C00C891A5 /* UIImage+Processor.h */,
+				5402B47424AC7C1C00C891A5 /* UIImage+Processor.m */,
+				5402B47E24AC8D2F00C891A5 /* ImageProcessorViewController.h */,
+				5402B47F24AC8D2F00C891A5 /* ImageProcessorViewController.m */,
+			);
+			path = ImageProcessor;
+			sourceTree = "<group>";
+		};
+		5402B47724AC851D00C891A5 /* ImageFliter-GPU */ = {
+			isa = PBXGroup;
+			children = (
+				5402B47A24AC855500C891A5 /* UIImage+GPUFliter.h */,
+				5402B47B24AC855500C891A5 /* UIImage+GPUFliter.m */,
+			);
+			path = "ImageFliter-GPU";
+			sourceTree = "<group>";
+		};
+		5402B47D24AC8CAB00C891A5 /* ImageCompress */ = {
+			isa = PBXGroup;
+			children = (
+				5402B48124AC8F8600C891A5 /* ImageCompressViewController.h */,
+				5402B48224AC8F8600C891A5 /* ImageCompressViewController.m */,
+				5402B48424AC94E300C891A5 /* UIImage+Compress.h */,
+				5402B48524AC94E300C891A5 /* UIImage+Compress.m */,
+			);
+			path = ImageCompress;
+			sourceTree = "<group>";
+		};
+		5402B48924ACA10A00C891A5 /* ImagePixelMix */ = {
+			isa = PBXGroup;
+			children = (
+				5402B48A24ACA17000C891A5 /* ImagePixelViewController.h */,
+				5402B48B24ACA17000C891A5 /* ImagePixelViewController.m */,
+				5402B48D24ACA2D100C891A5 /* ImageGrayViewController.h */,
+				5402B48E24ACA2D100C891A5 /* ImageGrayViewController.m */,
+				5402B49024ACA2F400C891A5 /* ImagePixelCustomViewController.h */,
+				5402B49124ACA2F400C891A5 /* ImagePixelCustomViewController.m */,
+				5402B49324ACA30600C891A5 /* ImageMosaicViewController.h */,
+				5402B49424ACA30600C891A5 /* ImageMosaicViewController.m */,
+				5402B49624ACA70300C891A5 /* UIImage+PixelMix.h */,
+				5402B49724ACA70300C891A5 /* UIImage+PixelMix.m */,
+			);
+			path = ImagePixelMix;
+			sourceTree = "<group>";
+		};
+		54C5FD7B24AED6A900D02616 /* ImageOrientationFix */ = {
+			isa = PBXGroup;
+			children = (
+				54C5FD7D24AED6C700D02616 /* UIImage+OrientationFix.h */,
+				54C5FD7C24AED6C700D02616 /* UIImage+OrientationFix.m */,
+			);
+			path = ImageOrientationFix;
+			sourceTree = "<group>";
+		};
+		7856D5D0E7538823208D9173 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				359C00D9283B293B4B754C7D /* Pods-ImageOperate-OC.debug.xcconfig */,
+				A5E622426A682D9EBC5B17DA /* Pods-ImageOperate-OC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BFE60C98688DEAB4CB438A9A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				55A7B7E6A3603E649992DF26 /* Pods_ImageOperate_OC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5402B42D24AC2F5B00C891A5 /* ImageOperate-OC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5402B44724AC2F5C00C891A5 /* Build configuration list for PBXNativeTarget "ImageOperate-OC" */;
+			buildPhases = (
+				2F5981A82BDCF26E7033E7FD /* [CP] Check Pods Manifest.lock */,
+				5402B42A24AC2F5B00C891A5 /* Sources */,
+				5402B42B24AC2F5B00C891A5 /* Frameworks */,
+				5402B42C24AC2F5B00C891A5 /* Resources */,
+				E5C7FCB3326FB91BD0ACB22E /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ImageOperate-OC";
+			productName = "ImageOperate-OC";
+			productReference = 5402B42E24AC2F5B00C891A5 /* ImageOperate-OC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5402B42624AC2F5B00C891A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = ericstone;
+				TargetAttributes = {
+					5402B42D24AC2F5B00C891A5 = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 5402B42924AC2F5B00C891A5 /* Build configuration list for PBXProject "ImageOperate-OC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5402B42524AC2F5B00C891A5;
+			productRefGroup = 5402B42F24AC2F5B00C891A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5402B42D24AC2F5B00C891A5 /* ImageOperate-OC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5402B42C24AC2F5B00C891A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5402B47024AC614000C891A5 /* Icon-3.png in Resources */,
+				5402B46324AC5FE300C891A5 /* honeybee.png in Resources */,
+				5402B46F24AC614000C891A5 /* Icon-2.png in Resources */,
+				5402B47124AC614000C891A5 /* Icon-1.png in Resources */,
+				5402B46924AC5FE300C891A5 /* horses.jpg in Resources */,
+				5402B46624AC5FE300C891A5 /* person.jpg in Resources */,
+				5402B47224AC614000C891A5 /* Icon-4.png in Resources */,
+				5402B46224AC5FE300C891A5 /* dog.jpg in Resources */,
+				5402B46824AC5FE300C891A5 /* giraffe.jpg in Resources */,
+				5402B44124AC2F5C00C891A5 /* LaunchScreen.storyboard in Resources */,
+				5402B46424AC5FE300C891A5 /* scream.jpg in Resources */,
+				5402B43E24AC2F5C00C891A5 /* Assets.xcassets in Resources */,
+				5402B48824ACA01800C891A5 /* panda.jpg in Resources */,
+				5402B46524AC5FE300C891A5 /* eagle.jpg in Resources */,
+				5402B46724AC5FE300C891A5 /* flower.jpg in Resources */,
+				5402B43C24AC2F5B00C891A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F5981A82BDCF26E7033E7FD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ImageOperate-OC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E5C7FCB3326FB91BD0ACB22E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageOperate-OC/Pods-ImageOperate-OC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ImageOperate-OC/Pods-ImageOperate-OC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ImageOperate-OC/Pods-ImageOperate-OC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5402B42A24AC2F5B00C891A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5402B43924AC2F5B00C891A5 /* ViewController.m in Sources */,
+				5402B48C24ACA17000C891A5 /* ImagePixelViewController.m in Sources */,
+				5402B48024AC8D2F00C891A5 /* ImageProcessorViewController.m in Sources */,
+				5402B43324AC2F5B00C891A5 /* AppDelegate.m in Sources */,
+				5402B49224ACA2F400C891A5 /* ImagePixelCustomViewController.m in Sources */,
+				5402B49824ACA70300C891A5 /* UIImage+PixelMix.m in Sources */,
+				5402B44424AC2F5C00C891A5 /* main.m in Sources */,
+				5402B49524ACA30600C891A5 /* ImageMosaicViewController.m in Sources */,
+				5402B48624AC94E300C891A5 /* UIImage+Compress.m in Sources */,
+				5402B47524AC7C1C00C891A5 /* UIImage+Processor.m in Sources */,
+				5402B47C24AC855500C891A5 /* UIImage+GPUFliter.m in Sources */,
+				5402B48324AC8F8600C891A5 /* ImageCompressViewController.m in Sources */,
+				54C5FD7E24AED6C700D02616 /* UIImage+OrientationFix.m in Sources */,
+				5402B43624AC2F5B00C891A5 /* SceneDelegate.m in Sources */,
+				5402B48F24ACA2D100C891A5 /* ImageGrayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5402B43A24AC2F5B00C891A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5402B43B24AC2F5B00C891A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5402B43F24AC2F5C00C891A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5402B44024AC2F5C00C891A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5402B44524AC2F5C00C891A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5402B44624AC2F5C00C891A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5402B44824AC2F5C00C891A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 359C00D9283B293B4B754C7D /* Pods-ImageOperate-OC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AG9N8EA5ER;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImageOperate-OC/ImageFliter-GPU",
+				);
+				INFOPLIST_FILE = "ImageOperate-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ericstone.ImageOperate-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5402B44924AC2F5C00C891A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A5E622426A682D9EBC5B17DA /* Pods-ImageOperate-OC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AG9N8EA5ER;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImageOperate-OC/ImageFliter-GPU",
+				);
+				INFOPLIST_FILE = "ImageOperate-OC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ericstone.ImageOperate-OC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5402B42924AC2F5B00C891A5 /* Build configuration list for PBXProject "ImageOperate-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5402B44524AC2F5C00C891A5 /* Debug */,
+				5402B44624AC2F5C00C891A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5402B44724AC2F5C00C891A5 /* Build configuration list for PBXNativeTarget "ImageOperate-OC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5402B44824AC2F5C00C891A5 /* Debug */,
+				5402B44924AC2F5C00C891A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5402B42624AC2F5B00C891A5 /* Project object */;
+}

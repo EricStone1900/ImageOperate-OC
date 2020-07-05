@@ -1,0 +1,6 @@
+framework module Pods_ImageOperate_OC {
+  umbrella header "Pods-ImageOperate-OC-umbrella.h"
+
+  export *
+  module * { export * }
+}
